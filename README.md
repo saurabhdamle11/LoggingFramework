@@ -1,18 +1,36 @@
-## Getting Started
+# LoggingFramework
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A simple Java logging framework for learning and demonstration purposes.
 
-## Folder Structure
+## Features
 
-The workspace contains two folders by default, where:
+- Custom log message class (`LogMessage`) with log level, timestamp, thread name, and message.
+- Easily extensible for different log levels and output formats.
+- Suitable for small projects or as a base for building more advanced logging systems.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Project Structure
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+```
+LoggingFramework/
+├── src/
+│   └── loggingframework/
+│       ├── LogMessage.java
+│       └── ... (other source files)
+├── .gitignore
+└── README.md
+```
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Usage
 
-## Dependency Management
+1. Clone the repository.
+2. Add your own loggers or extend the `LogMessage` class as needed.
+3. Compile and run your Java application as usual.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Requirements
+
+- Java 8 or above
+
+## Notes
+
+- This project is for educational purposes and does not aim to replace production-ready logging frameworks like Log4j or SLF4J.
+
